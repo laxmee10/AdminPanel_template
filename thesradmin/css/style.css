@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+body, a, h1, h2, h3, h4, h5, h6, p, span, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*======================MAIN CONTENT=====================*/
+.all .top {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.all .top .left-part {
+  background: #ffffff;
+}
+
+.all .top .left-part .butn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+}
+
+.all .top .left-part .butn .bttn {
+  background: transparent;
+  border: none;
+}
+
+.all .top .left-part .butn .bttn:focus {
+  outline: none;
+}
+
+.all .top .left-part .butn .bttn img {
+  width: 60%;
+}
+
+.all .top .left-part .logo img {
+  width: 60%;
+}
+
+.all .top .right-part {
+  text-align: right;
+}
+
+.all .top .right-part a {
+  background: transparent;
+  border: none;
+  color: #112222;
+  font-weight: bold;
+}
+
+.all .main-content {
+  background: #F0F8FF;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all .main-content .slide-nav {
+  background: #88132E;
+  width: 100px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.all .main-content .slide-nav .menus {
+  padding: 30px 15px;
+}
+
+.all .main-content .slide-nav .menus .inmenus {
+  list-style: none;
+  margin-bottom: 35px;
+}
+
+.all .main-content .slide-nav .menus .inmenus .menu-link {
+  color: #ffffff;
+  position: relative;
+  padding-left: 25px;
+  font-size: 0;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.all .main-content .slide-nav .menus .inmenus .menu-link:hover,
+.all .main-content .slide-nav .menus .inmenus .active {
+  color: #ECA82D;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.all .main-content .slide-nav .menus .inmenus .menu-link:hover::after,
+.all .main-content .slide-nav .menus .inmenus .active::after {
+  content: '';
+  position: absolute;
+  left: -30px;
+  height: 20px;
+  width: 5px;
+  background: #ECA82D;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.all .main-content .slide-nav .menus .inmenus #home {
+  position: relative;
+}
+
+.all .main-content .slide-nav .menus .inmenus #home::before {
+  position: absolute;
+  content: '\f015';
+  left: 0;
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  margin-top: -3px;
+}
+
+.all .main-content .slide-nav .menus .inmenus #gallery {
+  position: relative;
+}
+
+.all .main-content .slide-nav .menus .inmenus #gallery::before {
+  position: absolute;
+  content: '\f03e';
+  left: 0;
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  margin-top: -3px;
+}
+
+.all .main-content .slide-nav .menus .inmenus #about {
+  position: relative;
+}
+
+.all .main-content .slide-nav .menus .inmenus #about::before {
+  position: absolute;
+  content: '\f2ce';
+  left: 0;
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  margin-top: -3px;
+}
+
+.all .main-content .workarea {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.all .main-content .workarea #go-to-bttn {
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: #008CBA;
+  color: white;
+  padding: 5px 10px 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.all .main-content .table-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*======================MAIN CONTENT=====================*/
+/*======================HOME PAGE========================*/
+.pages_buttons .pages-links {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.pages_buttons .pages-links h2 {
+  color: #88132E;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+
+.pages_buttons .buttons-links {
+  background: #88132E;
+  width: 250px;
+  border: none;
+  color: #F0F8FF;
+  margin-bottom: 20px;
+  padding: 12px 5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 4px;
+}
+h2{
+  color: #88132E;
+  line-height: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+/*======================HOME PAGE========================*/
+/*======================OUR OFFERS TABLE========================*/
+#work-area {
+  margin-top: 7px;
+}
+
+#work-area #go-back-btn #action-btn {
+  background-color: #88132E;
+  color: #F0F8FF;
+  font-weight: 500;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px;
+  letter-spacing: 2px;
+}
+
+/*======================OUR OFFERS TABLE========================*/
+/*======================GALERY PAGE========================*/
+.working-area {
+  margin-top: 22px;
+  margin-bottom: 5px;
+}
+
+.working-area #action-bttn {
+  background-color: #88132E;
+  color: #F0F8FF;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+table .danger-btn {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/*======================GALERY PAGE========================*/
+/*======================GALERY Form========================*/
+.gallery-area {
+  margin-top: 7px;
+}
+
+.gallery-area .go-back-btn #action-btn {
+  background-color: #88132E;
+  color: #F0F8FF;
+  font-weight: 500;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  letter-spacing: 2px;
+}
+
+.gallery-area form {
+  padding: 40px 75px;
+}
+
+.gallery-area label {
+  font-weight: 500;
+}
+
+.gallery-area input {
+  border-radius: 10px;
+  border-color: darkgrey;
+}
+
+.gallery-area input[type=submit] {
+  width: 115px;
+  background-color: #008CBA;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/*======================GALERY Form========================*/
+/*=====================ABOUT US (Testimonial Table) PAGE===========================*/
+.testimonial-area {
+  margin-top: 20px;
+}
+
+.testimonial-area #action-bttn {
+  background-color: #88132E;
+  color: #F0F8FF;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+table {
+  margin-top: 5px;
+}
+
+table .danger-btn {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/*=====================ABOUT US (Testimonial Table) PAGE===========================*/
+/*=====================ABOUT US (Testimonial form) PAGE===========================*/
+#testimonial-area {
+  margin-top: 7px;
+}
+
+#testimonial-area .go-back-btn #action-btn {
+  background-color: #88132E;
+  color: #F0F8FF;
+  font-weight: 500;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  letter-spacing: 2px;
+}
+
+#testimonial-area form {
+  padding: 40px 75px;
+}
+
+#testimonial-area label {
+  font-weight: 500;
+}
+
+#testimonial-area input {
+  border-radius: 10px;
+  border-color: darkgrey;
+}
+
+#testimonial-area input[type=submit] {
+  width: 115px;
+  background-color: #008CBA;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/*=====================ABOUT US (Testimonial form) PAGE===========================*/
+/*====================== OUR SERVICES=====================*/
+.services h2 {
+  font-weight: 600;
+  color: #88132E;
+  letter-spacing: 1px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+/*======================OUR SERVICES=====================*/
+/*######################JS STYLING####################*/
+.toggled {
+  width: 300px !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggled .menus .inmenus .menu-link {
+  font-size: 16px !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggled .menus .inmenus #home::before {
+  font-size: 20px;
+}
+
+.toggled .menus .inmenus #about::before {
+  font-size: 20px;
+}
+
+.toggled .menus .inmenus #gallery::before {
+  font-size: 20px;
+}
+
+.toggled .menus .inmenus #contact::before {
+  font-size: 20px;
+}
+
+/*######################JS STYLING####################*/
+/*# sourceMappingURL=style.css.map */
